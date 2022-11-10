@@ -1,0 +1,394 @@
+/*desktop*/
+@media only screen and (min-width: 960px){
+   .side-nav{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      z-index: 2;
+      position: fixed;
+      width: 150px;
+      height: 100%;
+      color: #fff;
+      background: #fff;
+   }
+   .side-nav-container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+   }
+   .placeholder{
+      width: 163px;
+      height: 100%;
+   }
+}
+/*midsizes*/
+@media only screen and (max-width: 960px){
+   
+   
+}
+/*mobile*/
+@media only screen and (max-width: 600px){
+   .side-nav{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+   }
+   .side-nav-container{
+      width: 100%;
+      display: flex;
+
+   }
+   .placeholder{
+      width: 0;
+      height: 0;
+   }
+}
+html {
+   scroll-behavior: smooth;
+ }
+body{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/*Conatiner*/
+.container{
+   display: flex;
+}
+
+/*Side Navigation*/
+.side-nav{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   z-index: 2;
+   position: fixed;
+   width: 150px;
+   height: 100%;
+   color: #fff;
+   background: #fff;
+}
+.side-nav-container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+/*Logo Design*/
+.logo-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fa-envelope{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 80px;
+   padding: 10px;
+   color: rgb(215, 194, 28);
+}
+/*Navigation Name*/
+.nav-name{
+   text-align: center;
+   font-size: 12px;
+   font-weight: 600;
+   background-color: rgb(215, 194, 28);
+   color: #fff;
+   border-top: 3px solid rgb(192, 172, 25);
+   border-bottom: 3px solid rgb(192, 172, 25);
+}
+/*Navigation Links*/
+.nav-link{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   text-align: center;
+   height: 100px;
+   border-bottom: 1px solid gray;
+}
+.nav-link a{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+   text-decoration: none;
+   font-size: 12px;
+   font-weight: 600;
+   color: grey
+}
+.nav-link a:hover{
+   color: rgb(215, 194, 28);
+}
+
+.nav-link a:active{
+   color: rgb(215, 194, 28);
+}
+
+/*Individual Navigation Links*/
+.fa-house{
+   font-size: 25px;
+   padding-bottom: 10px;
+}
+.fa-user{
+   font-size: 25px;
+   padding-bottom: 10px;
+}
+.fa-briefcase{
+   font-size: 25px;
+   padding-bottom: 10px;
+}
+/*placeholder*/
+.placeholder{
+   width: 163px;
+   height: 100%;
+   background: blue;
+}
+/*Content Section*/
+.content-section{
+   display: flex;
+   flex-direction: column;
+   background: lightgray;
+   width: 100%;
+   height: 1000px;
+}
+#head{
+   z-index: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: center;
+   height: 1000px;
+   width: 100%;
+   margin-bottom: 100px;
+   color: #fff;
+   background: blue;
+   background-image: url("https://papers.co/wallpaper/papers.co-ns83-sea-wave-ocean-yellow-nature-36-3840x2400-4k-wallpaper.jpg");
+   filter: grayscale(40%);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   margin-bottom: 0;
+}
+#head h1{
+   font-size: 5em;
+   margin-bottom: 10px;
+
+}
+#head h3{
+   font-size: 2.5em;
+   margin-top: 0;
+   text-align: center;
+}
+.head-title{
+   padding-bottom: 100px;
+}
+/*Skills Section*/
+.skill-portfolio{
+   margin-bottom: 100px;
+}
+#skills{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   z-index: 0;
+   background: rgb(227, 227, 227);
+   height: 1500px;
+}
+.skills-container{
+   padding-bottom: 100px;
+}
+.skills-header{
+   text-align: center;
+}
+.skills-header h1{
+   margin-top: 10px;
+   
+   font-size: 50px;
+}
+.fa-user-design{
+   font-size: 35px;
+   color: rgb(215, 194, 28);
+}
+.skill-title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.skill-title h3{
+   width: 200px;
+   padding: 10px;
+   background: rgb(215, 194, 28);
+   color: #fff;
+   box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.46);
+   -webkit-box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.46);
+   -moz-box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.46);
+}
+.skill-portfolio{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main-3-img{
+   width: 500px;
+}
+.photoshop-img{
+   margin-left: 30px;
+   margin-top: 35px;
+   width: 160px;
+}
+/*Process Section*/
+.process{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 100px;
+}
+.process-container{
+   position: relative;
+   display: flex;
+}
+.process-block{
+   z-index: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   width: 120px;
+   height: 120px;
+   background: #fff;
+   border-radius: 10px;
+   border-top-left-radius: 0;
+   color: rgb(215, 194, 28);
+   margin: 0 30px 0 40px;
+}
+.fa-process{
+   font-size: 50px;
+   margin-bottom: 15px;
+}
+.process-block p{
+   margin: 0;
+   font-weight: 600;
+   font-size: 12px;
+}
+/*Bar Box Section*/
+.bar-box-section{
+   z-index: 0;
+   display: flex;
+   position: absolute;
+   bottom: 60px;
+   left: 157px;
+}
+.bar-box{
+   width: 15px;
+   height: 5px;
+   border-radius: 15%;
+   background: #fff;
+   margin-right: 5px;
+   margin-top: 3.5px;
+}
+/*About Me Section*/
+.about-me-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-right: 0;
+}
+.about-me-section p{
+   width: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 600;
+   font-size: 1.2em;
+   line-height: 1.5;
+   margin: 0;
+}
+/*Portfolio Section*/
+#portfolio{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 1000px;
+   background: rgb(220, 218, 203);
+}
+.portfolio-conatiner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.portfolio-header{
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+   margin-bottom: 80px;
+}
+.fa-briefcase-size{
+   font-size: 35px;
+   color: rgb(215, 194, 28);
+}
+.portfolio-header h1{
+   margin-top: 0;
+   font-size: 50px;
+}
+/*Portfolio Examples*/
+.portfolio-examples{
+   margin-top: 10px;
+}
+.portfolio-examples-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.example-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   background: rgb(243, 243, 243);
+   margin: 10px 10px;
+}
+.example-box img{
+   width: 300px;
+}
+.example-box img:hover{
+   -webkit-filter: brightness(50%);
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+}
+.example-text-space{
+   padding: 10px;
+   text-align: center;
+}
+.example-company{
+   font-weight: 100;
+   margin-bottom: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+}
+.example-type{
+   margin-top: 0;
+   margin-bottom: 30px;
+   color: rgb(90, 90, 90);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+}
+
